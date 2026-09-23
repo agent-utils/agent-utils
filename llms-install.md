@@ -25,6 +25,7 @@ Repeat with a different subdomain — and **the same token** — for each additi
 | `math` | `https://math.agent-utils.ai/mcp` | deterministic expression evaluation |
 | `webhook-inbox` | `https://webhook-inbox.agent-utils.ai/mcp` | temporary pollable webhook receiver |
 
+
 No signup, no dashboard, no card. The first call auto-provisions a trial (1,000 credits).
 `tools/list` is unauthenticated, so any service can be inspected before use:
 

@@ -51,15 +51,15 @@ Thin, zero-dependency wrappers over the MCP endpoints. One package per service p
 
 | Service | TypeScript (npm) | Python (PyPI) |
 |---|---|---|
-| memory | [`@agent-utils/memory`](https://codeberg.org/agent-utils/agent-utils-memory-ts) | [`agent-utils-memory`](https://codeberg.org/agent-utils/agent-utils-memory-py) |
+| memory | [`@agent-utils/memory`](https://github.com/agent-utils/agent-utils-memory-ts) | [`agent-utils-memory`](https://github.com/agent-utils/agent-utils-memory-py) |
 
 _(more services rolling out — see each service's `llms.txt` to use it directly today with any
 MCP client)_
 
 ## Examples
 
-- [Claude Code with persistent memory](https://codeberg.org/agent-utils/agent-utils-example-claude-code-memory)
-- [Multi-service: memory + mutex + idempotency](https://codeberg.org/agent-utils/agent-utils-example-multi-service)
+- [Claude Code with persistent memory](https://github.com/agent-utils/agent-utils-example-claude-code-memory)
+- [Multi-service: memory + mutex + idempotency](https://github.com/agent-utils/agent-utils-example-multi-service)
 
 ## Pricing
 

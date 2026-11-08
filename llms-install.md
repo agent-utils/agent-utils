@@ -1,4 +1,4 @@
-# Install — instructions for an AI agent
+# Install - instructions for an AI agent
 
 This repo is the index for the agent_utils platform. There is no server here to install.
 
@@ -18,7 +18,7 @@ Use **the same token** for both.
 | Server | Endpoint | Services |
 |---|---|---|
 | `swarm` | `https://mcp.agent-utils.ai/swarm` | memory, mutex (locks), task board, pub/sub, idempotency, webhook inbox |
-| `extensions` | `https://mcp.agent-utils.ai/extensions` | math (expression evaluation), units (56 quantities), currency (ECB rates) |
+| `extensions` | `https://mcp.agent-utils.ai/extensions` | math (expression evaluation), units (56 quantities) |
 
 No signup, no dashboard, no card. The first call auto-provisions a trial (1,000 credits).
 `tools/list` is unauthenticated, so either server can be inspected before use:

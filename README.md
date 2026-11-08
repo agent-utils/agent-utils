@@ -1,12 +1,12 @@
 # agent_utils
 
-**One account for the small pieces of infrastructure AI agents keep needing** — persistent
+**One account for the small pieces of infrastructure AI agents keep needing** - persistent
 memory, distributed locks, a shared task board, pub/sub, operation idempotency, webhook
-inboxes, exact math, and correct unit and currency conversion — on two MCP servers, behind a
+inboxes, exact math, and correct unit conversion - on two MCP servers, behind a
 single token and one credit pool.
 
 agent_utils is a hosted commercial service at **[agent-utils.ai](https://agent-utils.ai)**.
-This repo is the open-source **client tooling and documentation** hub — the "start here" index
+This repo is the open-source **client tooling and documentation** hub - the "start here" index
 for the client libraries and examples. The service itself is closed-source; these clients only
 call its public MCP/HTTP API.
 
@@ -15,7 +15,7 @@ call its public MCP/HTTP API.
 A single Bearer token works on both servers and every service on them. All usage draws from
 one credit pool, one $5 activation covers everything, and the first call auto-provisions a
 free trial (1,000 credits, no card). Adopt one service and the rest are already available
-with the token you have. A single-purpose competitor can't match that.
+with the token you have.
 
 ## Try it in one command
 
@@ -34,15 +34,15 @@ your trial token stays valid).
 
 | Server | Endpoint | Services |
 |---|---|---|
-| **swarm** — stateful coordination | `https://mcp.agent-utils.ai/swarm` | memory, mutex, task board, pub/sub, idempotency, webhook inbox |
-| **extensions** — stateless capabilities | `https://mcp.agent-utils.ai/extensions` | math, units (56 quantities: general, electrical, chemistry, thermodynamics), currency |
+| **swarm** - stateful coordination | `https://mcp.agent-utils.ai/swarm` | memory, mutex, task board, pub/sub, idempotency, webhook inbox |
+| **extensions** - stateless capabilities | `https://mcp.agent-utils.ai/extensions` | math, units (56 quantities: general, electrical, chemistry, thermodynamics) |
 
 Both servers also carry the account tools (`get_account`, API keys, payments, feedback).
 Full spec: [llms.txt](https://mcp.agent-utils.ai/llms.txt); per service:
 `https://mcp.agent-utils.ai/docs/<service>`.
 
 The conversion tools use compile-time dimensional analysis, so every supported unit pair is
-correct by construction — the failure mode agents have with unit math doesn't apply.
+correct by construction - the failure mode agents have with unit math doesn't apply.
 
 ## Client libraries
 
@@ -65,6 +65,10 @@ Thin, zero-dependency wrappers over the MCP endpoints. One package per server pe
 1 credit = $0.00001. Most operations are 15 credits ($0.00015). Trial: 1,000 credits, no card.
 Activation: $5 one-time, 500,000-credit limit. Full terms:
 [mcp.agent-utils.ai/legal.txt](https://mcp.agent-utils.ai/legal.txt).
+
+## Contact
+
+Questions, bugs or account issues: support@agent-utils.ai
 
 ## License
 

@@ -1,12 +1,12 @@
 # agent_utils
 
-**One account for the small pieces of infrastructure AI agents keep needing** — persistent
+**One account for the small pieces of infrastructure AI agents keep needing** - persistent
 memory, distributed locks, a shared task board, pub/sub, operation idempotency, webhook
-inboxes, exact math, and correct unit and currency conversion — on two MCP servers, behind a
+inboxes, exact math, and correct unit conversion - on two MCP servers, behind a
 single token and one credit pool.
 
 agent_utils is a hosted commercial service at **[agent-utils.ai](https://agent-utils.ai)**.
-This repo is the open-source **client tooling and documentation** hub — the "start here" index
+This repo is the open-source **client tooling and documentation** hub - the "start here" index
 for the client libraries and examples. The service itself is closed-source; these clients only
 call its public MCP/HTTP API.
 
@@ -34,15 +34,15 @@ your trial token stays valid).
 
 | Server | Endpoint | Services |
 |---|---|---|
-| **swarm** — stateful coordination | `https://mcp.agent-utils.ai/swarm` | memory, mutex, task board, pub/sub, idempotency, webhook inbox |
-| **extensions** — stateless capabilities | `https://mcp.agent-utils.ai/extensions` | math, units (56 quantities: general, electrical, chemistry, thermodynamics), currency |
+| **swarm** - stateful coordination | `https://mcp.agent-utils.ai/swarm` | memory, mutex, task board, pub/sub, idempotency, webhook inbox |
+| **extensions** - stateless capabilities | `https://mcp.agent-utils.ai/extensions` | math, units (56 quantities: general, electrical, chemistry, thermodynamics) |
 
 Both servers also carry the account tools (`get_account`, API keys, payments, feedback).
 Full spec: [llms.txt](https://mcp.agent-utils.ai/llms.txt); per service:
 `https://mcp.agent-utils.ai/docs/<service>`.
 
 The conversion tools use compile-time dimensional analysis, so every supported unit pair is
-correct by construction — the failure mode agents have with unit math doesn't apply.
+correct by construction - the failure mode agents have with unit math doesn't apply.
 
 ## Client libraries
 

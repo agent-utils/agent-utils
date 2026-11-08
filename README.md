@@ -66,6 +66,10 @@ Thin, zero-dependency wrappers over the MCP endpoints. One package per server pe
 Activation: $5 one-time, 500,000-credit limit. Full terms:
 [mcp.agent-utils.ai/legal.txt](https://mcp.agent-utils.ai/legal.txt).
 
+## Contact
+
+Questions, bugs or account issues: support@agent-utils.ai
+
 ## License
 
 Client tooling in the agent_utils repos is MIT-licensed. The hosted service is a separate

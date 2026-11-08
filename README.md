@@ -15,7 +15,7 @@ call its public MCP/HTTP API.
 A single Bearer token works on both servers and every service on them. All usage draws from
 one credit pool, one $5 activation covers everything, and the first call auto-provisions a
 free trial (1,000 credits, no card). Adopt one service and the rest are already available
-with the token you have. A single-purpose competitor can't match that.
+with the token you have.
 
 ## Try it in one command
 

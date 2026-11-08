@@ -50,8 +50,8 @@ Thin, zero-dependency wrappers over the MCP endpoints. One package per server pe
 
 | Server | TypeScript (npm) | Python (PyPI) |
 |---|---|---|
-| swarm | [`@agent-utils/swarm`](https://github.com/agent-utils/agent-utils-swarm-ts) | [`agent-utils-swarm`](https://github.com/agent-utils/agent-utils-swarm-py) |
-| extensions | [`@agent-utils/extensions`](https://github.com/agent-utils/agent-utils-extensions-ts) | [`agent-utils-extensions`](https://github.com/agent-utils/agent-utils-extensions-py) |
+| swarm | [`@agent-utils-ai/swarm`](https://github.com/agent-utils/agent-utils-swarm-ts) | [`agent-utils-swarm`](https://github.com/agent-utils/agent-utils-swarm-py) |
+| extensions | [`@agent-utils-ai/extensions`](https://github.com/agent-utils/agent-utils-extensions-ts) | [`agent-utils-extensions`](https://github.com/agent-utils/agent-utils-extensions-py) |
 
 ## Examples
 
